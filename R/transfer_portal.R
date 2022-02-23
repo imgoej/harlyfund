@@ -5,7 +5,7 @@
 #' @export
 transfer_portal <- function() {
   options(warn=-1)
-  cat("Hello, I am Hubby and Welcome to the Harly Fund Transfer Portal. I will be your service bot today :D \n   I will try andassist you anyway I can.")
+  cat("Hello, I am Hubby and Welcome to the Harly Fund Transfer Portal. I will be your service bot today :D \n   I will try anda ssist you anyway I can.")
   cat("\n\nQuiz time! To gain entry, get the right answer to this security question:")
   cat("\n   What KDA would Jonathan's Hecarim be riding without Frederik's Zilean?")
   answer <- readline()
