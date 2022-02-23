@@ -5,7 +5,7 @@
 #' @export
 transfer_portal <- function() {
   options(warn=-1)
-  cat("Hello, I am Hubby and Welcome to the Harly Fund Transfer Portal. I will be your service bot today \n   and I am here to assist you anyway I can.")
+  cat("Hello, I am Hubby and Welcome to the Harly Fund Transfer Portal. I will be your service bot today :D \n   I will try andassist you anyway I can.")
   cat("\n\nQuiz time! To gain entry, get the right answer to this security question:")
   cat("\n   What KDA would Jonathan's Hecarim be riding without Frederik's Zilean?")
   answer <- readline()
@@ -13,7 +13,7 @@ transfer_portal <- function() {
     cat("Your answer is clearly not correct. (you should use \".\" as decimal separator")
   } else {
     cat("Good boy/girl!")
-    cat("\n\nMoney transfers via this process guarantees utmost security, and ensures that necessary \n   permitions has been obtained for your transfer.")
+    cat("\n\nMoney transfers via this process guarantees utmost security, and ensures that necessary \n   permitions have been obtained for your transfer.")
     Sys.sleep(2)
     if("1a2bcdTL.csv" %in% list.files()){
       cat("\n\nI am sorry, but only one transfer request is allowed per week.")
@@ -26,8 +26,8 @@ transfer_portal <- function() {
       cat("\nEnter <1> if you wish to make a transfer to Frederik.")
       cat("\nEnter <2> if you wish to collect money owed from Frederik")
       transfer.type <- readline(prompt = "")
-      if(transfer.type == 1) cat("You have selected to make a transfer to Frederik")
-      if(transfer.type == 2) cat("You have selected to collect money owed from Frederik")
+      if(transfer.type == 1) cat("You have selected to make a transfer to Frederik.")
+      if(transfer.type == 2) cat("You have selected to collect money owed from Frederik.")
       if(!(transfer.type %in% c(1,2))) cat("It appears that you are an absolute moron, and have failed to choose one of two numbers. \n\nProcess is terminated.")
       if(transfer.type == 2){
         Sys.sleep(2)
@@ -72,7 +72,7 @@ transfer_portal <- function() {
         } else {cat("It seems that you either could not figure out how to enter \"yes\" or chose \"no\". Process is terminated.")}
       }
       if(transfer.type == 1){
-        cat("\nI am sorry, but Frederik has temporarily deactivated this option. For explanantion, Frederik has cited \"I dont want any more fucking moneyz\"")
+        cat("\nI am sorry, but Frederik has temporarily deactivated this option. To explain, Frederik has cited \"I don't want your fucking moneyz\"")
       }}
   }
 
