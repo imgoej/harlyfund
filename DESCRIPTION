@@ -2,7 +2,7 @@ Package: harlyfund
 Title: harlyfund: The Harly Fund No-Profit Organization Environment
 Version: 1.3.0
 Authors@R: 
-    person("Frederik", "Baumgarten", , "fhb@outlook.dk", role = "aut",
+    person("Frederik", "Baumgarten", "fhb@outlook.dk", role = "aut",
            comment = "Hello")
 Description: This package facilitates Harly Fund operations.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
