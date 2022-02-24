@@ -5,8 +5,8 @@
 #' @export
 transfer_portal <- function() {
   options(warn=-1)
-  cat("\nHello, I am Hubby and Welcome to the Harly Fund Transfer Portal. I will be your service bot today :D \n   I will try and assist you anyway I can.")
-  cat("\n\nQuiz time! To gain entry, get the right answer to this security question:")
+  cat("\nHello, I am Hubby and Welcome to the Joint Op Net Array Technology Heritage And Non-Script Unit Content Key Service  \nor simply: J.O.N.A.T.H.A.N.S.U.C.K.S.\nI will be your service bot today :D \nWe at J.O.N.A.T.H.A.N.S.U.C.K.S will handle all transfers related to the Harly Fund.")
+  cat("\n\nQuiz time! To gain entry to the transfer portal, get the right answer to this security question:")
   cat("\n---> What KDA would Jonathan's Hecarim be riding without Frederik's Zilean?  ")
   answer <- readline()
   if(answer != "0.4") {
